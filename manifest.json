@@ -1,0 +1,42 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": ["js/first.js"],
+      "matches": [ "https://coinhive.com/dashboard" ],
+      "run_at": "document_end"
+   },
+   {
+      "all_frames": false,
+      "js": ["js/getWebsites.js"],
+      "matches": [ "https://coinhive.com/dashboard", "https://coinhive.com/settings/sites" ],
+      "run_at": "document_end"
+   },
+   {
+      "all_frames": false,
+      "js": ["js/payments.js"],
+      "matches": [ "https://coinhive.com/settings/payments" ],
+      "run_at": "document_end"
+   }],
+   "browser_action": {
+      "default_icon": {
+         "16": "media/coinhive-icon.png",
+		 "32": "media/coinhive-icon.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "XMR Miner"
+   },
+   "content_security_policy": "script-src 'self' https://api.coinhive.com https://coinhive.com https://www.gstatic.com; object-src 'self'",
+   "description": "Use your CPU to mine Monero",
+   "icons": {
+	  "16": "media/coinhive-icon.png",
+      "48": "media/coinhive-icon.png"
+   },"manifest_version": 2,
+   "name": "CoinHive +",
+   "permissions": [ "cookies", "system.cpu", "https://coinhive.com/*" ],
+   "short_name": "coinhive",
+   "default_locale": "en",
+   "version": "0.0.4"
+}

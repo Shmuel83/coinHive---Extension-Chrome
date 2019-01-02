@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>XMR Miner</title>
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+
+<body>
+<!-- Tab-->
+
+    <div class="col s12">
+  <ul class="tabs">
+    <li class="tab col s3"><a href="#tabs-1"><i class="material-icons" title="Dashboard">dashboard</i></a></li>
+    <li class="tab col s3"><a href="#tabs-2"><i class="material-icons" title="Sites">view_list</i></a></li>
+    <li class="tab col s3"><a href="#tabs-3"><i class="material-icons" title="Rate Currency">show_chart</i></a></li>
+  </ul>
+  </div>
+
+  <div id="tabs-1">
+  <div id="configCPU" class="container">
+  <div id="chartHash" class="tab col s6"></div>
+  <div class="row">
+  <div class="col s10">
+  <form action="#">
+    <p class="range-field"><label id="textThrottle">Throttle</label>
+      <input type="range" id="throttle" min="1" max="100"/>
+    </p>
+	
+  </form>
+  </div>
+  <div id="threads" class="input-field col s2">
+    <select id="select_threads">
+    </select>
+    <label id="textThreads">Threads</label>
+  </div>
+  </div>
+  <div class="row">
+  <div class="col s6">
+  <span id="valueTrhottle"></span>
+  </div>
+  <div id="gauge" class="col s6"></div>
+  </div>
+<div id="totalHash"></div>
+   </div>
+<div id="init"></div>   
+   <div class="row"><div class="col s2"></div><div id="startMinning" class="col s8"><a class="waves-effect waves-light btn"><i class="material-icons left">play_arrow</i><span id="start_minning">Start minning</span></a></div><div class="col s2"></div></div>
+   <div class="row"><div class="col s2"></div><div id="stopMinning"  class="col s8" hidden><a class="waves-effect red darken-3 btn"><i class="material-icons left">pause</i><span id="stop_minning">Stop minning</span></a></div><div class="col s2"></div></div>
+   </div>
+  <div id="tabs-2">
+  <div class="row"><div class="col s11" id="user"></div><div id="refresh" class="col s1 btn-floating waves-effect waves-light"><i class="material-icons">refresh</i></div></div>
+  <ul class="collection">
+  </ul>
+  <p id="average"></p>
+     </div>
+  <div id="tabs-3">
+  <div class="row">
+  <div class="input-field col s5">
+          <i class="material-icons prefix">textsms</i>
+          <input type="text" id="autocomplete-input" class="autocomplete">
+          <label for="autocomplete-input">Currency</label>
+        </div>
+		<div class="col s7" id="modifyCurrency">
+		<a class="waves-effect waves-light btn"><i class="material-icons left" title="Refresh">refresh</i><span id="button_refreshCurrency">Modify Currency</span></a>
+		</div>
+		</div>
+    <div id="divCourses" class="col s12"></div>
+	<div id="divConvert" class="col s12"></div>
+	<div id="divMonero" class="col s12"></div>
+</div>
+
+	  <link rel="stylesheet" href="css/materialize.min.css">
+	  <link href="css/icon.css" rel="stylesheet">
+	  <script src="js/jquery-2.2.4.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	 
+	<script type="text/javascript" src="js/loader.js"></script>
+	<script type="text/javascript" src="js/cpu.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+	<script type="text/javascript" src="js/cours.js"></script>	
+	<script type="text/javascript" src="js/chart.js"></script>
+	<script type="text/javascript" src="js/sites.js"></script>
+
+</body>
+
+</html>

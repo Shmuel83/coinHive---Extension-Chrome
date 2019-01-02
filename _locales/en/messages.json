@@ -1,0 +1,73 @@
+{"error_key": {
+   "message": "Invalid CoinHive Key",
+   "description": "Show error Invalid CoinHive Key"},
+"account": {
+   "message": "Account of ",
+   "description": "Show @mail of account on list"},
+"account_mail": {
+   "message": "We have find your coinhive account : ",
+   "description": "Show @mail of account on Dashboard"},
+"initText": {
+   "message": "Choice of your CoinHive Key or insert an other key from a friend",
+   "description": "Show init Text"},
+"friend": {
+   "message": "Friend ",
+   "description": "Allow Key CoinHive of a friend"},
+"friend_placeholder": {
+   "message": "Friend CoinHive Public Key",
+   "description": "Placeholder to input key friend"},
+"showCPU": {
+   "message": "% used of CPU for minning",
+   "description": "Show % of CPU"},
+"developer": {
+   "message": "Developeur",
+   "description": "Show key of developer"},
+"start_minning": {
+   "message": "Start minning",
+   "description": "Text button to start minning"},
+"stop_minning": {
+   "message": "Stop minning",
+   "description": "Text button to stop minning"},
+"button_refreshCurrency": {
+   "message": "Modify Currency",
+   "description": "Text on Button to refresh or modify currency"},
+"inputCurrency": {
+   "message": "Currency",
+   "description": "label currency"},
+"totalPending": {
+   "message": "You have total Pending : ",
+   "description": "Show total pending"},
+"pending": {
+   "message": "Pending = ",
+   "description": "Show pending website"},
+"paid": {
+   "message": "Paid = ",
+   "description": "Show paid website"},
+"totalHash": {
+   "message": "Total Hashes in this session : ",
+   "description": "Show total hash"},
+"currentKey": {
+   "message": "CoinHive Public Key : ",
+   "description": "Show current key"},
+"textFirstLog": {
+   "message": "We don't have find your coinhive account : You must ",
+   "description": "Text if no login"},
+"textlogin": {
+   "message": "login",
+   "description": "Link login"},
+"textor": {
+   "message": " or ",
+   "description": "text or"},
+"textsignup": {
+   "message": "sign up",
+   "description": "Link Sign up"},
+"textendlog": {
+   "message": " on Coinhive or choice a CoinHive Key of a friend",
+   "description": "text end of login"},
+"textthrottle": {
+   "message": " CPU Throttle",
+   "description": "text of throttle"},
+"textthreads": {
+   "message": " Threads",
+   "description": "text end of threads"}
+}
