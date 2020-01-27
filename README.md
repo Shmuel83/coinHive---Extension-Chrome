@@ -1,5 +1,6 @@
 # coinHive---Extension-Chrome
 CoinHive+ (Extension now no show on store Chrome)
+coinhive.com is deleted
 
 Mining of Monero from Chrome
 This extension uses the coinhive.com API
